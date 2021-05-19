@@ -39,6 +39,10 @@ tlBurger.from('.menu__top', {
   opacity: 0,
   duration: 1
 });
+tlBurger.from('.menu__container', {
+  opacity: 0,
+  duration: 0.5
+});
 tlBurger.from('.nav__list', {
   y: 100,
   opacity: 0,
